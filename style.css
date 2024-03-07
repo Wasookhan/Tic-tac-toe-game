@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins' sans serif;
+}
+
+html, body {
+height: 100%;
+width: 100%;
+}
+.header{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+.btn{
+    padding: 5px 10px;
+    font-weight: bold;
+
+}
+.dark{
+    background-color: black;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+.light{
+    border: none;
+    border-radius: 5px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wining-message{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.new-game{
+    margin-bottom: 20px;
+    padding: 12px 28px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+.new-game:hover{
+    background-color:rgba(0, 0, 255, 0.795) ;
+}
+.dark-mode{
+    background-color: white;
+    color: black;
+}
+.slots{
+    width: 40%;
+    height: 60%;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px rgba(0,0, 0, 0.9);
+}
+.boxes{
+    width: 25%;
+    height: 25%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 65px;
+    
+}
+.reset-btn{
+    margin: auto;
+    padding: 12px 28px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+.reset-btn:hover{
+    background-color:rgba(0, 0, 255, 0.795) ;
+}
+h4{
+    margin-bottom: 20px;
+    text-decoration:underline ;
+}
